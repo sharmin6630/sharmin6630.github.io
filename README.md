@@ -1,2 +1,2 @@
 # Demo Portfolio
-live link - https://sharmin6630.github.io/ 
+live link - https://sharmin6630.github.io/portfolio/ 
