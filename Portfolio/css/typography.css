@@ -1,0 +1,14 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--page); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.7; -webkit-font-smoothing: antialiased; }
+[hidden] { display: none !important; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, button:focus-visible, .content-panels:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+button { font-family: inherit; cursor: pointer; }
+p { margin: 0 0 .95rem; }
+p:last-child { margin-bottom: 0; }
+h1, h2, h3 { font-family: var(--display); font-weight: 500; text-wrap: balance; }
+h2 { font-size: 1.65rem; line-height: 1.3; letter-spacing: -.015em; margin: 0 0 1rem; }
+h3 { font-size: 1.3rem; line-height: 1.35; letter-spacing: -.01em; margin: 0 0 .8rem; }
+.eyebrow { font-size: .69rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); margin: 2.4rem 0 .6rem; }
+.skip-link { position: absolute; top: -100px; left: 1rem; background: var(--surface); padding: .6rem 1rem; z-index: 200; }
+.skip-link:focus { top: 1rem; }

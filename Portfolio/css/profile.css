@@ -1,0 +1,13 @@
+.rail { padding: 2.4rem 1.25rem 1.5rem; background-color: #fff; background-image: linear-gradient(to bottom, rgba(21,39,64,.08), rgba(21,39,64,.18)), url('../img/night-sky.png'); background-size: 100% 6rem; background-repeat: no-repeat; background-position: top center; border: 1px solid #e0e6ed; border-radius: var(--panel-radius); box-shadow: 0 5px 20px rgba(27,45,69,.04); }
+.portrait { width: clamp(6rem, 15vh, 9rem); aspect-ratio: 1; object-fit: cover; object-position: center; display: block; margin: 0 auto 1rem; border: 1px solid #cadbe5; padding: 5px; border-radius: 50%; background: #fff; }
+.profile-label { width: 100%; margin: 0 0 .5rem; text-align: center; font-size: .65rem; letter-spacing: .12em; text-transform: uppercase; color: var(--accent); }
+.name { text-align: center; font-size: 2.25rem; line-height: 1.03; letter-spacing: -.02em; margin: 0 0 1rem; }
+.meta { font-size: .84rem; display: grid; gap: .6rem; border-block: 1px solid var(--rule); padding-block: .8rem; margin: 0 0 1rem; }
+.meta div { display: grid; gap: .1rem; }
+.meta dt { font-size: .64rem; letter-spacing: .1em; text-transform: uppercase; color: var(--ink-soft); }
+.meta dd { margin: 0; min-width: 0; line-height: 1.45; }
+.links { display: grid; grid-template-columns: auto auto auto; gap: .4rem; }
+.links a { font-size: .72rem; text-align: center; white-space: nowrap; text-decoration: none; padding: .45rem .4rem; border: 1px solid var(--rule); border-radius: 7px; background: var(--surface); color: var(--ink); }
+.links a:hover { color: var(--accent); border-color: var(--accent); }
+.links a.primary { grid-column: 1 / -1; white-space: normal; overflow-wrap: anywhere; font-size: .78rem; font-weight: 600; color: #fff; background: var(--accent); border-color: var(--accent); }
+.links a.primary:hover { background: var(--ink); border-color: var(--ink); }
